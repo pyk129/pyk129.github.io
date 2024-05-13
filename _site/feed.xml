@@ -1,0 +1,340 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>길PE의 IT Note</title>
+  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
+  <updated>2024-05-13T22:22:37+09:00</updated>
+  <author>
+    <name></name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024  </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>해시테이블</title>
+    <link href="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" rel="alternate" type="text/html" title="해시테이블" />
+    <published>2024-05-07T15:00:00+09:00</published>
+  
+    <updated>2024-05-07T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/</id>
+    <content src="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="1Page보안이야기" />
+    
+    <category term="무결성" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      작성중
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DAP 53회 합격수기</title>
+    <link href="http://localhost:4000/posts/DAP/" rel="alternate" type="text/html" title="DAP 53회 합격수기" />
+    <published>2024-05-07T15:00:00+09:00</published>
+  
+    <updated>2024-05-07T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/DAP/</id>
+    <content src="http://localhost:4000/posts/DAP/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="자격증이야기" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      오랜 기간 DAP 수험생활을 하면서 다행히 53회에 75.1점 (필기48.3 / 실기26.8점)으로 간신히 합격하였습니다. (정말 한끝 차이였네요..)
+
+
+굉장히 오랫동안 준비한 시험이라 제 오랜 수험 경험이 다른 분들께 도움이 되지 않을까 싶어 합격수기를 올립니다.
+
+
+
+수험기간은? - 3년
+
+2018.06(40회)~2021.10(53회) 기간동안 시험을 보았습니다. 햇수로는 3년인데.. 중간에 대학원을 가게 되어 대학원을 다니며 시험을 보았기때문에 꽤 길게 공부하게 되었네요 ㅠㅠ
+
+수험전 DB지식은? - DML
+
+현재 모바일 개발자를 업으로 삼고 있습니다. DAP를 준비하기 전까진 DB는 DML (SELECT, INSERT, UPDATE, DELETE) 밖에 못하는 사람이었습니다. 이런 이유로 수험...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>해시함수</title>
+    <link href="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98/" rel="alternate" type="text/html" title="해시함수" />
+    <published>2024-04-23T15:00:00+09:00</published>
+  
+    <updated>2024-04-23T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98/</id>
+    <content src="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="1Page보안이야기" />
+    
+    <category term="무결성" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. 해시함수란?
+임의의 길이를 가지는 입력 메시지를 고정된 길이의 출력 메시지로 만드는 함수
+
+가. 용어 및 동일표현
+
+1) 용어
+
+
+  
+    
+      구분
+      동일표현
+    
+  
+  
+    
+      평문(PlainText)
+      입력 메시지 (원본 값)
+    
+    
+      해시
+      해시 알고리즘을 통해 만들어지는 고정된 길이의 메시지
+    
+  
+
+
+2) 동일표현
+
+
+  
+    
+      구분
+      동일표현
+    
+  
+  
+    
+      해시함수(매핑함수)
+      해시함수,해시 알고리즘,해시함수 알고리즘
+    
+    
+      해시값(출력 메시지)
+      해시값,해시코드,해시 체크섬, 해시
+    
+  
+
+
+
+
+2. 해시함...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>비대칭키 암호화</title>
+    <link href="http://localhost:4000/posts/%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/" rel="alternate" type="text/html" title="비대칭키 암호화" />
+    <published>2024-04-22T15:00:00+09:00</published>
+  
+    <updated>2024-04-22T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/</id>
+    <content src="http://localhost:4000/posts/%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="1Page보안이야기" />
+    
+    <category term="암호화" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. 비대칭키 암호화?
+암호화 키와 복호화키가 서로 같지 않은 키로 암호화 및 복호화를 수행하는 암호화 방법
+
+
+  비대칭키 암호화는 공개키(Public Key)와 개인키(Private Key)를 통해 암복호화를 각각 수행
+
+
+
+
+2. 비대칭키 암호화 개념도 및 알고리즘
+가. 비대칭키 암호화 개념도
+
+
+
+  비대칭키 암호화는 암호키의 활용 방법에 따라 기밀성을 강화하거나 무결성 강화에 활용
+
+
+나. 비대칭키 암호화 알고리즘
+
+
+    
+    
+    
+    
+    
+  
+    구분
+    알고리즘
+    설명
+  
+  
+    기밀성
+  
+  
+    RSA
+    소인수 분해의 어려움을 기반으로 한 공개키 암호화 알고리즘 
+  
+  
+    ElGamal
+    이산 대수 문제의 어려움에 기반...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>대칭키 암호화</title>
+    <link href="http://localhost:4000/posts/%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/" rel="alternate" type="text/html" title="대칭키 암호화" />
+    <published>2024-04-18T15:00:00+09:00</published>
+  
+    <updated>2024-04-18T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/</id>
+    <content src="http://localhost:4000/posts/%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="1Page보안이야기" />
+    
+    <category term="암호화" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. 대칭키 암호화?
+동일한 키로 암호화 및 복호화를 수행하는 암호화 방법
+
+
+  비밀키 암호화와 대칭키 암호화를 말함
+
+
+
+
+2. 대칭키 암호화 개념도 및 알고리즘
+가. 대칭키 암호화 개념도
+
+
+  대칭키 암호화는 동일한 키를 통해 암복호화를 수행
+
+
+나. 대칭키 암호화 알고리즘
+
+1) 블록 암호 알고리즘
+
+
+  
+    
+      알고리즘
+      설명
+    
+  
+  
+    
+      AES(Advanced Encryption Standard)
+      128,192,256 비트의 비밀키를 사용
+    
+    
+      DES(Data Encryption Standard)
+      64비트의 블록단위로 암호화를 수행, 16 라운드의 페이스텔 연산을 거쳐 암호화 수행
+    
+   ...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
