@@ -44,26 +44,26 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="해시테이블" />
+<meta property="og:title" content="MAC(Message Authentication Code)" />
 <meta name="author" content="길PE" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="작성중" />
-<meta property="og:description" content="작성중" />
-<link rel="canonical" href="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" />
-<meta property="og:url" content="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" />
+<meta name="description" content="1. MAC(Message Authentication Code)란? 메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드" />
+<meta property="og:description" content="1. MAC(Message Authentication Code)란? 메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드" />
+<link rel="canonical" href="http://localhost:4000/posts/MAC/" />
+<meta property="og:url" content="http://localhost:4000/posts/MAC/" />
 <meta property="og:site_name" content="길PE의 IT Note" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-05-07T15:00:00+09:00" />
+<meta property="article:published_time" content="2024-04-17T15:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="해시테이블" />
+<meta property="twitter:title" content="MAC(Message Authentication Code)" />
 <meta name="google-site-verification" content="yVjkIy15Y5HeS7rRN6Cj7B5TEpQEhGaeDouuX0gAjBk" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"길PE"},"dateModified":"2024-05-07T15:00:00+09:00","datePublished":"2024-05-07T15:00:00+09:00","description":"작성중","headline":"해시테이블","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/"},"url":"http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"길PE"},"dateModified":"2024-04-17T15:00:00+09:00","datePublished":"2024-04-17T15:00:00+09:00","description":"1. MAC(Message Authentication Code)란? 메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드","headline":"MAC(Message Authentication Code)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/MAC/"},"url":"http://localhost:4000/posts/MAC/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>해시테이블 | 길PE의 IT Note
+  <title>MAC(Message Authentication Code) | 길PE의 IT Note
   </title>
 
   <!--
@@ -292,7 +292,7 @@
         
 
           
-            <span>해시테이블</span>
+            <span>MAC(Message Authentication Code)</span>
           
 
         
@@ -375,6 +375,82 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+
+      
+    
+
+    
+      
+
+        <!-- Add CDN URL -->
+        
+
+        <!-- Add image path -->
+        
+
+        
+        
+
+      
+
+      <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+
+      
+
+    
+
+    <!-- Add SVG placehoder to prevent layout reflow -->
+
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+
+  
+
+  
+
+
 
 <!-- Add header for code snippets -->
 
@@ -388,6 +464,41 @@
 
   
   
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
 
   
 
@@ -423,7 +534,7 @@
 
 
 
-<h1 data-toc-skip>해시테이블</h1>
+<h1 data-toc-skip>MAC(Message Authentication Code)</h1>
 
 <div class="post-meta text-muted">
     <!-- published date -->
@@ -439,10 +550,10 @@
 
 
 <em class=""
-    data-ts="1715061600"
+    data-ts="1713333600"
     data-df="ll"
     data-toggle="tooltip" data-placement="bottom">
-  May  7, 2024
+  Apr 17, 2024
 </em>
 
     </span>
@@ -493,7 +604,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="3 words">
+  title="333 words">
   <em>1 min</em> read</span>
 
     </div>
@@ -503,8 +614,64 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>작성중</p>
+  <h1 id="1-macmessage-authentication-code란">1. MAC(Message Authentication Code)란?</h1>
+<p>메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드</p>
 
+<blockquote>
+  <p>네트워크를 통해 송신측과, 수신측이 메시지를 교환할때, 메시지가 수정, 삭제, 삽입 등이 되지 않았음을 인증하는 코드</p>
+</blockquote>
+
+<h1 id="2-mac-동작절차-및-설명">2. MAC 동작절차 및 설명</h1>
+
+<h2 id="가-mac-동작절차"><span class="mr-2">가. MAC 동작절차</span><a href="#가-mac-동작절차" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><img data-src="/assets/img/MAC\process_mac.jpg" alt="Github_Logo" data-proofer-ignore></p>
+<ul>
+  <li>송신측과 수신측은 사전에 공유키(비밀키, 대칭키)를 공유</li>
+</ul>
+
+<h2 id="나-mac-동작절차-설명"><span class="mr-2">나. MAC 동작절차 설명</span><a href="#나-mac-동작절차-설명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="table-wrapper"><table>
+    <colgroup>
+    <col width="20%" />
+    <col width="30%" />
+    <col width="50%" />
+    </colgroup>
+  <tr>
+    <td>구분</td>
+    <td>절차</td>
+    <td>설명</td>
+  </tr>
+  <tr>
+    <td rowspan="3">송신측</td>
+  </tr>
+  <tr>
+    <td>(송신)MAC생성</td>
+    <td>메시지를 MAC알고리즘과 암호키를 이용하여 MAC값을 생성</td>
+  </tr>
+    <tr>
+    <td>데이터전달</td>
+    <td>메시지와, (송신)MAC을 수신측에 전달</td>
+  </tr>
+  &lt;/tr&gt;
+
+  <tr>
+  <td rowspan="3">수신측</td>
+  </tr>
+  <tr>
+    <td>(수신)MAC생성</td>
+    <td>송신측에 전달받은 메시지를 MAC알고리즘과 암호키를 이용하여 (수신)MAC을 생성</td>
+  </tr>
+    <tr>
+    <td>위변조 확인</td>
+    <td>송신측에 전달받은 메시지를 이용하여 생성한 (수신)MAC과, (송신)MAC을 비교 <br />
+    - (정상 메시지) (수신)MAC, (송신)MAC 일치 <br />
+    - (위변조된 메시지) (수신)MAC, (송신)MAC 불일치 </td>
+  </tr>
+</table></div>
+
+<h1 id="3-참고자료">3. 참고자료</h1>
+<p><a href="https://en.wikipedia.org/wiki/Message_authentication_code">위키-Message_authentication_code</a></p>
 
 </div>
 
@@ -516,7 +683,7 @@
     <i class="far fa-folder-open fa-fw mr-1"></i>
     
       <a href='/categories/1page%EB%B3%B4%EC%95%88%EC%9D%B4%EC%95%BC%EA%B8%B0/'>1Page보안이야기</a>,
-      <a href='/categories/%EB%AC%B4%EA%B2%B0%EC%84%B1/'>무결성</a>
+      <a href='/categories/%EC%95%94%ED%98%B8%ED%99%94/'>암호화</a>
   </div>
   
 
@@ -553,19 +720,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94+-+%EA%B8%B8PE%EC%9D%98+IT+Note&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25ED%2595%25B4%25EC%258B%259C%25ED%2585%258C%25EC%259D%25B4%25EB%25B8%2594%2F" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=MAC%28Message+Authentication+Code%29+-+%EA%B8%B8PE%EC%9D%98+IT+Note&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FMAC%2F" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94+-+%EA%B8%B8PE%EC%9D%98+IT+Note&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25ED%2595%25B4%25EC%258B%259C%25ED%2585%258C%25EC%259D%25B4%25EB%25B8%2594%2F" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=MAC%28Message+Authentication+Code%29+-+%EA%B8%B8PE%EC%9D%98+IT+Note&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FMAC%2F" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25ED%2595%25B4%25EC%258B%259C%25ED%2585%258C%25EC%259D%25B4%25EB%25B8%2594%2F&text=%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94+-+%EA%B8%B8PE%EC%9D%98+IT+Note" data-toggle="tooltip" data-placement="top"
+        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FMAC%2F&text=MAC%28Message+Authentication+Code%29+-+%EA%B8%B8PE%EC%9D%98+IT+Note" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -648,6 +815,14 @@
 
 
 
+<!-- BS-toc.js will be loaded at medium priority -->
+<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+
+<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+  <div class="panel-heading pl-3 pt-2 mb-2">Contents</div>
+  <nav id="toc" data-toggle="toc"></nav>
+</div>
+
 
     
   </div>
@@ -683,59 +858,59 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
   
 
   
@@ -847,120 +1022,6 @@
       
       
       <div class="card">
-        <a href="/posts/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1713852000"
-    data-df="ll"
-    >
-  Apr 23, 2024
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>해시함수</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                1. 해시함수란?
-임의의 길이를 가지는 입력 메시지를 고정된 길이의 출력 메시지로 만드는 함수
-
-가. 용어 및 동일표현
-
-1) 용어
-
-
-  
-    
-      구분
-      동일표현
-    
-  
-  
-    
-      평문(PlainText)
-      입력 메시지 (원본 값)
-    
-    
-      해시
-      해시 알고리즘을 통해 ...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-      
-      
-      <div class="card">
-        <a href="/posts/se_3attr/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1713106800"
-    data-df="ll"
-    >
-  Apr 15, 2024
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>정보보안과 3대 요소</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                1. 정보보안이란?
-정보보안이란?
-정보자산을 유출, 변경, 파괴등의 공격 행위로부터 안전하게 지키는 행위
-
-보안(Security)이란?
-외부 혹은 내부 공격으로 부터 자산을 안전하게 지키는 행위
-
-2. 정보보안 3대 요소
-
-
-  
-    
-      요소
-      설명
-    
-  
-  
-    
-      기밀성
-      암호화 등을 사용하여 접...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
-      
-      
-      <div class="card">
         <a href="/posts/%EC%95%94%ED%98%B8%ED%99%94/">
           <div class="card-body">
             <!--
@@ -1008,6 +1069,118 @@
         </a>
       </div>
     
+      
+      
+      <div class="card">
+        <a href="/posts/%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1713420000"
+    data-df="ll"
+    >
+  Apr 18, 2024
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>대칭키 암호화</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                1. 대칭키 암호화?
+동일한 키로 암호화 및 복호화를 수행하는 암호화 방법
+
+
+  비밀키 암호화와 대칭키 암호화를 말함
+
+
+
+
+2. 대칭키 암호화 개념도 및 알고리즘
+가. 대칭키 암호화 개념도
+
+
+  대칭키 암호화는 동일한 키를 통해 암복호화를 수행
+
+
+나. 대칭키 암호화 알고리즘
+
+1) 블록 암호 알고리즘
+
+
+  
+    
+      알고리즘
+   ...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1713765600"
+    data-df="ll"
+    >
+  Apr 22, 2024
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>비대칭키 암호화</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                1. 비대칭키 암호화?
+암호화 키와 복호화키가 서로 같지 않은 키로 암호화 및 복호화를 수행하는 암호화 방법
+
+
+  비대칭키 암호화는 공개키(Public Key)와 개인키(Private Key)를 통해 암복호화를 각각 수행
+
+
+
+
+2. 비대칭키 암호화 개념도 및 알고리즘
+가. 비대칭키 암호화 개념도
+
+
+
+  비대칭키 암호화는 암호키의 활용 방법에 따라...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
     </div> <!-- .card-deck -->
   </div> <!-- #related-posts -->
 
@@ -1020,17 +1193,17 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/DAP/" class="btn btn-outline-primary"
+  <a href="/posts/%EC%95%94%ED%98%B8%ED%99%94/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>DAP 53회 합격수기</p>
+    <p>암호화</p>
   </a>
   
 
   
-  <div class="btn btn-outline-primary disabled"
+  <a href="/posts/%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/" class="btn btn-outline-primary"
     prompt="Newer">
-    <p>-</p>
-  </div>
+    <p>대칭키 암호화</p>
+  </a>
   
 
 </div>

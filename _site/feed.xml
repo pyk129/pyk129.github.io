@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>길PE의 IT Note</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2024-05-13T22:22:37+09:00</updated>
+  <updated>2024-05-16T23:10:29+09:00</updated>
   <author>
     <name></name>
     <uri>http://localhost:4000/</uri>
@@ -17,44 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>해시테이블</title>
-    <link href="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" rel="alternate" type="text/html" title="해시테이블" />
-    <published>2024-05-07T15:00:00+09:00</published>
-  
-    <updated>2024-05-07T15:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/</id>
-    <content src="http://localhost:4000/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/" />
-    <author>
-      <name>길PE</name>
-    </author>
-
-  
-    
-    <category term="1Page보안이야기" />
-    
-    <category term="무결성" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      작성중
-
-
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -330,6 +292,79 @@
       64비트의 블록단위로 암호화를 수행, 16 라운드의 페이스텔 연산을 거쳐 암호화 수행
     
    ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>MAC(Message Authentication Code)</title>
+    <link href="http://localhost:4000/posts/MAC/" rel="alternate" type="text/html" title="MAC(Message Authentication Code)" />
+    <published>2024-04-17T15:00:00+09:00</published>
+  
+    <updated>2024-04-17T15:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/MAC/</id>
+    <content src="http://localhost:4000/posts/MAC/" />
+    <author>
+      <name>길PE</name>
+    </author>
+
+  
+    
+    <category term="1Page보안이야기" />
+    
+    <category term="암호화" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      1. MAC(Message Authentication Code)란?
+메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드
+
+
+  네트워크를 통해 송신측과, 수신측이 메시지를 교환할때, 메시지가 수정, 삭제, 삽입 등이 되지 않았음을 인증하는 코드
+
+
+2. MAC 동작절차 및 설명
+
+가. MAC 동작절차
+
+
+  송신측과 수신측은 사전에 공유키(비밀키, 대칭키)를 공유
+
+
+나. MAC 동작절차 설명
+
+
+    
+    
+    
+    
+    
+  
+    구분
+    절차
+    설명
+  
+  
+    송신측
+  
+  
+    (송신)MAC생성
+    메시지를 MAC알고리즘과 암호키를 이용하여 MAC값을 생성
+  
+    
+    데이터전달
+    메시지와, (송신...
     </summary>
   
 

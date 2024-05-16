@@ -1,21 +1,6 @@
 [
   
   {
-    "title": "해시테이블",
-    "url": "/posts/%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94/",
-    "categories": "1Page보안이야기, 무결성",
-    "tags": "",
-    "date": "2024-05-07 15:00:00 +0900",
-    
-
-
-
-
-
-    "snippet": "작성중"
-  },
-  
-  {
     "title": "DAP 53회 합격수기",
     "url": "/posts/DAP/",
     "categories": "자격증이야기",
@@ -73,6 +58,21 @@
 
 
     "snippet": "1. 대칭키 암호화?동일한 키로 암호화 및 복호화를 수행하는 암호화 방법  비밀키 암호화와 대칭키 암호화를 말함2. 대칭키 암호화 개념도 및 알고리즘가. 대칭키 암호화 개념도  대칭키 암호화는 동일한 키를 통해 암복호화를 수행나. 대칭키 암호화 알고리즘1) 블록 암호 알고리즘            알고리즘      설명                  AES(Advanced Encryption Standard)      128,192,256 비트의 비밀키를 사용              DES(Data Encryption Standard)      64비트의 블록단위로 암호화를 수행, 16 라운드의 페이스텔 연산을 거쳐 암호화 수행              3DES      DES 알고리즘을 3 중으로 만들어 DES 암호의 단점을 보완      2) 스트림 암호 알고리즘            알고리즘      설명                  RC4      Pseudorandom Stream을 생성 하고 생성된 Stream과 평문을 XOR 하여 암호화              A5/1      3 개의 LFSR(Linear Feedback Shift Register(선형 피드백 시프트 레지스터))를 이용하여 암호화를 수행      "
+  },
+  
+  {
+    "title": "MAC(Message Authentication Code)",
+    "url": "/posts/MAC/",
+    "categories": "1Page보안이야기, 암호화",
+    "tags": "",
+    "date": "2024-04-17 15:00:00 +0900",
+    
+
+
+
+
+
+    "snippet": "1. MAC(Message Authentication Code)란?메시지가 위조 또는 변조 되지 않았는지 확인(인증)하기 위해 메시지에 덧붙여서 보내는 코드  네트워크를 통해 송신측과, 수신측이 메시지를 교환할때, 메시지가 수정, 삭제, 삽입 등이 되지 않았음을 인증하는 코드2. MAC 동작절차 및 설명가. MAC 동작절차  송신측과 수신측은 사전에 공유키(비밀키, 대칭키)를 공유나. MAC 동작절차 설명                          구분    절차    설명        송신측        (송신)MAC생성    메시지를 MAC알고리즘과 암호키를 이용하여 MAC값을 생성          데이터전달    메시지와, (송신)MAC을 수신측에 전달    &lt;/tr&gt;    수신측        (수신)MAC생성    송신측에 전달받은 메시지를 MAC알고리즘과 암호키를 이용하여 (수신)MAC을 생성          위변조 확인    송신측에 전달받은 메시지를 이용하여 생성한 (수신)MAC과, (송신)MAC을 비교     - (정상 메시지) (수신)MAC, (송신)MAC 일치     - (위변조된 메시지) (수신)MAC, (송신)MAC 불일치   3. 참고자료위키-Message_authentication_code"
   },
   
   {
